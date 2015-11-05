@@ -68,8 +68,8 @@ public class AnimationTest extends GdxTest {
 		leftWalk = new Animation(0.25f, leftWalkFrames);
 		rightWalk = new Animation(0.25f, rightWalkFrames);
 
-		cavemen = new Caveman[100];
-		for (int i = 0; i < 100; i++) {
+		cavemen = new Caveman[10000];
+		for (int i = 0; i < 10000; i++) {
 			cavemen[i] = new Caveman((float)Math.random() * Gdx.graphics.getWidth(),
 				(float)Math.random() * Gdx.graphics.getHeight(), Math.random() > 0.5 ? true : false);
 		}

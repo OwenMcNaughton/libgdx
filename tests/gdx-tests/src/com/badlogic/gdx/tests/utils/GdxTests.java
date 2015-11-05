@@ -88,6 +88,7 @@ public class GdxTests {
 		AnimationTest.class,
 		AnnotationTest.class,
 		AssetManagerTest.class,
+		AsTest.class,
 		AtlasIssueTest.class,
 		AudioDeviceTest.class,
 		AudioRecorderTest.class,
